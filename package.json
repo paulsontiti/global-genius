@@ -1,9 +1,13 @@
 {
   "name": "global-genius",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest run --coverage"
@@ -17,6 +21,7 @@
     "eslint": "^10.4.0",
     "prettier": "^3.8.3",
     "tsx": "^4.22.3",
+    "turbo": "^2.9.16",
     "typescript": "^6.0.3",
     "vitest": "^4.1.7"
   }
